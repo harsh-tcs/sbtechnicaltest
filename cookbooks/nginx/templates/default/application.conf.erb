@@ -1,0 +1,14 @@
+ upstream myapp{
+        server <%=node["nginx"]["server1"]%>;
+        server <%=node["nginx"]["server2"]%>;
+
+    }
+
+    server {
+        listen 80;
+
+        location / {
+            proxy_pass http://myapp;
+        }
+    }
+
