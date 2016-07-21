@@ -1,33 +1,6 @@
 Sainsbury's Technical Test
 --------------------------------------------------
 
-Task
---------------------------------
-a) Launch 3 separate linux nodes using the tool/distro of your choice
-2 x application nodes
-1 x web node
-
-b) Using a configuration management tool (contractors MUST use Chef)
-
-    i) Deploy the sample application to the application nodes
-    ii) Install Nginx on the web node and balance requests to the application nodes in a round-robin fashion
-    iii) Demonstrate the round-robin mechanism is working correctly
-    
-Goal
-----------------------------
-Sending a HTTP request to the web node should return the response
-
-    Hi there, I'm served from <application node hostname>!
-
-Considerations
------------------------------
-        i) Share your work on a public git repo
-        ii) Include a README.md with clear and concise instructions
-        iii) Invocation should be a one line command string
-        iv) Take care not to over engineer a solution 
-
-
-
 How To Run the Solution?
 -----------------------------------------
 
