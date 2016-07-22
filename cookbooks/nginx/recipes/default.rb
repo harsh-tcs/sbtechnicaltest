@@ -33,6 +33,6 @@ log "Remove default sites enabled file"
 log "Restart Nginx"
 		
 	execute 'Restart Nginx' do
-	    command 'sudo sudo service nginx restart'
+	    command 'sudo service nginx restart'
         end		
 		
